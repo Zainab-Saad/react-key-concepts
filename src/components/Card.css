@@ -1,0 +1,26 @@
+.Card {
+  flex: 0 0 calc(25% - 20px); /* 33.33% minus margin to fit 3 cards in a row */
+  box-shadow: 0 2px 8px rgb(184, 230, 255);
+  padding: 2% 4%;
+  margin: 1% 1% 5% 1%;
+  border-radius: 12px;
+  background-color: #121417;
+  color: white;
+  display: flex; /* Make the card a flex container */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: justify;
+}
+
+.Card-Heading {
+  text-align: center;
+}
+
+.Card-Image {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
